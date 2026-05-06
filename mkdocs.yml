@@ -1,5 +1,5 @@
-site_name: AutoLXB 使用手册
-site_description: AutoLXB Android 端自动化框架使用手册
+site_name: AutoLXB 使用手册 / User Manual
+site_description: AutoLXB Android 端自动化框架使用手册 / AutoLXB Android automation user manual
 site_url: https://wuwei-crg.github.io/AutoLXB/
 repo_url: https://github.com/wuwei-crg/AutoLXB
 repo_name: wuwei-crg/AutoLXB
@@ -34,6 +34,28 @@ nav:
       - 视觉执行 Trace: trace/vision.md
       - 通知触发 Trace: trace/notification.md
       - 动作执行 Trace: trace/actions.md
+  - English Manual:
+      - Overview: en/index.md
+      - Quick Start:
+          - Installation and Preparation: en/getting-started/install.md
+          - Start Core: en/getting-started/start-core.md
+          - Configure the Model: en/getting-started/model-config.md
+      - Task Tutorial:
+          - Overview: en/tasks/overview.md
+          - Quick Tasks: en/tasks/quick-task.md
+          - Scheduled Tasks: en/tasks/schedules.md
+          - Notification-Triggered Tasks: en/tasks/notification-triggers.md
+          - Task Route Mechanism: en/tasks/routes-concepts.md
+          - Route Editor: en/tasks/route-editor.md
+          - Task Export and Import: en/tasks/import-export.md
+      - Configuration: en/config/overview.md
+      - Trace:
+          - Overview: en/trace/overview.md
+          - Task Flow Trace: en/trace/task-flow.md
+          - Task Route Trace: en/trace/routes.md
+          - Visual Execution Trace: en/trace/vision.md
+          - Notification Trigger Trace: en/trace/notification.md
+          - Action Execution Trace: en/trace/actions.md
 
 theme:
   name: material

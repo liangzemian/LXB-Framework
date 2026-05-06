@@ -1,5 +1,7 @@
 # AutoLXB 使用手册
 
+[English Manual](en/index.md)
+
 AutoLXB 是一个面向 Android 端的自动化框架。它的目标是让用户用自然语言描述任务，再由系统完成应用启动、页面跳转、视觉识别、点击、输入、滑动等操作。
 
 它适合处理这类场景：
@@ -12,11 +14,11 @@ AutoLXB 是一个面向 Android 端的自动化框架。它的目标是让用户
 
 ## 演示视频
 
-下面的视频演示了 AutoLXB 的基础使用流程。视频中没有展示任务路线复用功能，路线相关能力可以继续阅读后面的“任务教程”。
+下面的视频演示了 AutoLXB 的使用流程，包括任务执行与路线复用。任务路线编辑、导入导出等细节可以继续阅读后面的“任务教程”。
 
 <div style="position: relative; padding: 30% 45%; height: 0; overflow: hidden; max-width: 100%;">
   <iframe
-    src="https://player.bilibili.com/player.html?bvid=BV1pDSSBKEvn&page=1&autoplay=0"
+    src="https://player.bilibili.com/player.html?bvid=BV114RbBfEou&page=1&autoplay=0"
     scrolling="no"
     border="0"
     frameborder="no"
@@ -26,7 +28,7 @@ AutoLXB 是一个面向 Android 端的自动化框架。它的目标是让用户
   </iframe>
 </div>
 
-如果页面无法直接播放，也可以打开：<https://www.bilibili.com/video/BV1pDSSBKEvn>
+如果页面无法直接播放，也可以打开：<https://www.bilibili.com/video/BV114RbBfEou>
 
 ## 项目架构
 
